@@ -5,7 +5,15 @@ body {
     overflow: hidden;
     background-color: #e3e1de;
     color: #1d1d1d;
-    font-size: 2px;
+    font-size: 16px;
+  }
+  .head {
+    font-family: PP Neue Corp, sans-serif;
+    text-align: center;
+    font-size: 2em;
+    margin: 20px 0; /* Ensure spacing */
+    position: relative; /* Keep it in normal flow */
+    z-index: 10; /* Make sure it's on top */
   }
   
   .cloneable {
